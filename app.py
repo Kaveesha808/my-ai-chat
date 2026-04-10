@@ -148,7 +148,7 @@ if prompt := st.chat_input("Type a message..."):
     
     # Create Model
     model = genai.GenerativeModel(
-        model_name="gemini-2.5-flash",
+        model_name="gemini-3.1-pro-preview",
         system_instruction=system_instruction
     )
 
